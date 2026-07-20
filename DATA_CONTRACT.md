@@ -56,6 +56,7 @@ These files contain system logic, scripts, templates, and instructions that impr
 | `modes/auto-pipeline.md` | Auto-pipeline instructions |
 | `modes/contacto.md` | LinkedIn outreach instructions |
 | `modes/email.md` | Formal application email draft instructions |
+| `modes/refer.md` | HR/employee contact discovery + referral outreach draft instructions |
 | `modes/deep.md` | Research prompt instructions |
 | `modes/regional/*` | Regional market calibration modes |
 | `modes/ofertas.md` | Comparison instructions |

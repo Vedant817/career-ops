@@ -314,6 +314,7 @@ These are two separate axes:
 | Asks to compare offers | `ofertas` |
 | Wants LinkedIn outreach | `contacto` — identifies hiring manager, recruiter, or team peers via web search; drafts a ≤300-char message tailored to the contact type (recruiter / hiring manager / peer / interviewer) |
 | Wants a formal application email | `email` — draft-only subject, body, attachment checklist, and contact block from a report or JD; never sends, submits, or clicks anything |
+| Wants a referral/HR contact found and an outreach message drafted for a specific company | `refer` — finds a real contact (public email, general recruiting mailbox, or LinkedIn contact, in that order; never a fabricated address) and drafts the message via `email`/`contacto`; draft-only. Runs automatically alongside `apply` and the apply-all batch workflow unless `outreach.referral.auto: false` in `config/profile.yml` |
 | Asks for company research | `deep` — generates a structured 6-axis research prompt covering AI strategy, recent moves, engineering culture, likely challenges, competitors, and the candidate's angle given their profile |
 | Preps for interview at specific company | `interview-prep` |
 | Wants a time-blocked prep plan for an upcoming interview | `interview/plan` |
@@ -354,6 +355,7 @@ These are two separate axes:
 - **Strongly discourage low-fit applications.** If a score is below 4.0/5, explicitly recommend against applying. The user's time and the recruiter's time are both valuable. Only proceed if the user has a specific reason to override the score.
 - **Quality over speed.** A well-targeted application to 5 companies beats a generic blast to 50. Guide the user toward fewer, better applications.
 - **Respect recruiters' time.** Every application a human reads costs someone's attention. Only send what's worth reading.
+- **Never send outreach on the user's behalf.** Referral and HR contact emails/LinkedIn messages (`refer`, `contacto`, `email`) are draft-only, exactly like applications — the user reviews and sends them. Never fabricate a contact's email address; use only public, self-disclosed sources.
 
 ---
 

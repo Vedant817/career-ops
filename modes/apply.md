@@ -177,7 +177,7 @@ If the candidate confirms that they submitted the application:
 1. Update status to Applied via the canonical CLI: `node set-status.mjs <report#> Applied` (never hand-edit the table)
 2. Seed the follow-up schedule: run `node followup-seed.mjs {num} --json` (where `{num}` is the tracker row number). If the candidate applied on a different day than today, pass `--date YYYY-MM-DD` with the actual submission date. It's idempotent, so re-running is safe.
 3. Refresh the report's `## Application Answers` section with the final field values and `**State:** submitted`
-4. Suggest next step: run the `contacto` mode (`/career-ops contacto` where available) for LinkedIn outreach
+4. Run `modes/refer.md` (unless `outreach.referral.auto` is explicitly `false` in `config/profile.yml`): find a contact at the company and draft a referral/HR outreach message, save it to the report's `## I) Referral Outreach` section, and show it to the candidate to send manually — never send it on their behalf.
 
 ## Scroll handling
 

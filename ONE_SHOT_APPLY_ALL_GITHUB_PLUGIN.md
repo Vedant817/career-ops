@@ -438,7 +438,7 @@ For every passing role:
 3. generate an ATS-first one-page resume PDF;
 4. run fact verification;
 5. create a cover note when required or genuinely valuable;
-6. draft recruiter/referral outreach without sending;
+6. draft recruiter/referral outreach without sending — follow `modes/refer.md`: find a real contact (a named person's public email, a general recruiting mailbox, or a LinkedIn contact, in that order — never a fabricated/guessed email address), draft the appropriate message, and save it as that role's `outreach.md`;
 7. create skill-gap and interview-prep files;
 8. recheck posting liveness;
 9. check duplicate status;

@@ -193,7 +193,7 @@ After detecting archetype, read `modes/_profile.md` for the user's specific fram
 
 | Tool | Use |
 |------|-----|
-| WebSearch | Comp research, trends, company culture, LinkedIn contacts, fallback for JDs |
+| WebSearch | Comp research, trends, company culture, LinkedIn contacts, HR/employee contact discovery (`refer` — public sources only, never a data broker or guessed email), fallback for JDs |
 | WebFetch | Fallback for extracting JDs from static pages |
 | Playwright | Verify offers (browser_navigate + browser_snapshot). **NEVER 2+ agents with Playwright in parallel.** |
 | Read | cv.md, _profile.md, article-digest.md, cv-template.html |

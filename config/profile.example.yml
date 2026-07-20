@@ -188,6 +188,12 @@ cover_letter:
 # match the platform you're messaging on.
 # outreach:
 #   greeting_max_chars: 150
+#   # Controls `/career-ops refer` — finding an HR/employee contact and drafting
+#   # a referral/outreach message. Default true (runs automatically alongside
+#   # `apply` and the apply-all batch workflow) when this key is absent. Set
+#   # false to only run it on demand via `/career-ops refer`.
+#   referral:
+#     auto: true
 
 # ── Application Email Drafts ────────────────────────────────────────────────
 #
