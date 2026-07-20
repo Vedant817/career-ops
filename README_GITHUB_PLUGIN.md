@@ -44,3 +44,14 @@ chmod +x run-apply-all-github-plugin.sh
 ```
 
 The prompt requires the installed GitHub plugin and refuses to fall back to `gh`, curl, raw GitHub REST requests, or cloning repositories.
+
+## Other CLIs
+
+This same one-shot workflow also runs on Claude Code, OpenCode, Grok Build CLI,
+and Cursor. Each has its own launcher script (Playwright MCP registration +
+that CLI's own full-autonomy flags) alongside this one in
+`automation/apply-all/`, plus a single `run-all.sh` entry point that launches
+any of them. See `automation/apply-all/README.md` for details. This script
+(`./run-apply-all-github-plugin.sh`) is kept at the repository root only for
+backward compatibility -- it now just delegates to
+`automation/apply-all/codex.sh`.
