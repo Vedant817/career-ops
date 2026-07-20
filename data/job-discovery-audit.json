@@ -1,0 +1,1648 @@
+{
+  "generated_at": "2026-07-16",
+  "sources": {
+    "configured_portal_matches": 4,
+    "reverse_ats_liveness_passed": 177,
+    "pipeline_rows": 181,
+    "reverse_ats_companies_scanned": 28746,
+    "reverse_ats_unreachable_boards": 13026,
+    "reverse_ats_undated_dropped": 16513
+  },
+  "counts": {
+    "rejected_filter": 158,
+    "qualifies_for_evaluation": 18,
+    "duplicate": 4,
+    "failed_technical": 1
+  },
+  "rows": [
+    {
+      "id": 1,
+      "company": "Glean",
+      "title": "Software Engineer, Agents",
+      "location": "Bangalore, India",
+      "url": "https://job-boards.greenhouse.io/gleanwork/jobs/4712442005",
+      "status": "rejected_filter",
+      "reason": "Mandatory experience floor is 4+ years."
+    },
+    {
+      "id": 2,
+      "company": "Glean",
+      "title": "Software Engineer, Evals",
+      "location": "Bangalore, India",
+      "url": "https://job-boards.greenhouse.io/gleanwork/jobs/4712438005",
+      "status": "rejected_filter",
+      "reason": "Mandatory experience floor is 4+ years."
+    },
+    {
+      "id": 3,
+      "company": "Zapier",
+      "title": "Software Engineer, Release Engineering",
+      "location": "India",
+      "url": "https://jobs.ashbyhq.com/zapier/6948a0e6-a580-4e9d-b109-20652d9a1507",
+      "status": "rejected_filter",
+      "reason": "Mandatory qualifications, role focus, or evidence fit is below the hard-gate standard for an early-career application."
+    },
+    {
+      "id": 4,
+      "company": "Celonis",
+      "title": "Software Engineer - Java",
+      "location": "Bangalore, India",
+      "url": "https://job-boards.greenhouse.io/celonis/jobs/7791267003?gh_jid=7791267003",
+      "status": "rejected_filter",
+      "reason": "Mandatory 3+ year requirement is not visibly flexible enough for an exception."
+    },
+    {
+      "id": 5,
+      "company": "wf",
+      "title": "Software Engineer",
+      "location": "Bengaluru, India",
+      "url": "https://wf.wd1.myworkdayjobs.com/wellsfargojobs/job/Bengaluru-India/AI-Engineer_R-542094-1",
+      "status": "qualifies_for_evaluation",
+      "reason": "2+ years or equivalent education; strong agentic-backend alignment."
+    },
+    {
+      "id": 6,
+      "company": "usbank",
+      "title": "Software Engineer",
+      "location": "Chennai, India",
+      "url": "https://usbank.wd1.myworkdayjobs.com/us_bank_careers/job/Chennai-India/Software-Engineer_2026-0017016-1",
+      "status": "rejected_filter",
+      "reason": "Mandatory qualifications, role focus, or evidence fit is below the hard-gate standard for an early-career application."
+    },
+    {
+      "id": 7,
+      "company": "spgi",
+      "title": "Associate Software Development Engineer - Information Security",
+      "location": "Hyderabad, Telangana",
+      "url": "https://spgi.wd5.myworkdayjobs.com/spgi_internal/job/Hyderabad-Telangana/Associate-Software-Development-Engineer---Information-Security_329638",
+      "status": "qualifies_for_evaluation",
+      "reason": "Entry-professional role requiring 1+ year; security-focused software evidence is defensible."
+    },
+    {
+      "id": 8,
+      "company": "spgi",
+      "title": "Associate Software Development Engineer - Information Security",
+      "location": "Hyderabad, Telangana",
+      "url": "https://spgi.wd5.myworkdayjobs.com/spgi_careers/job/Hyderabad-Telangana/Associate-Software-Development-Engineer---Information-Security_329638-1",
+      "status": "duplicate",
+      "reason": "Same company+role as selected pipeline row 7; no duplicate application is allowed."
+    },
+    {
+      "id": 9,
+      "company": "rbs",
+      "title": "Software Engineer, Data",
+      "location": "Bengaluru",
+      "url": "https://rbs.wd3.myworkdayjobs.com/rbs/job/Bengaluru/Software-Engineer--Data_R-00281826",
+      "status": "rejected_filter",
+      "reason": "Mandatory qualifications, role focus, or evidence fit is below the hard-gate standard for an early-career application."
+    },
+    {
+      "id": 10,
+      "company": "pwc",
+      "title": "IN_Associate_Software Engineer – Java Backend Development _GCC_Advisory_Bangalore",
+      "location": "Bengaluru Millenia",
+      "url": "https://pwc.wd3.myworkdayjobs.com/global_experienced_careers/job/Bengaluru-Millenia/IN-Senior-Associate-Java-Fullstack-Developer-GCC-Advisory-Bangalore_731984WD-1",
+      "status": "rejected_filter",
+      "reason": "Mandatory experience floor is 4+ years."
+    },
+    {
+      "id": 11,
+      "company": "pwc",
+      "title": "IN_Associate_Software Engineer – Java Backend Development _GCC_Advisory_Bangalore",
+      "location": "Bengaluru Millenia",
+      "url": "https://pwc.wd3.myworkdayjobs.com/nonpublic_postings/job/Bengaluru-Millenia/IN-Senior-Associate-Java-Fullstack-Developer-GCC-Advisory-Bangalore_731984WD",
+      "status": "rejected_filter",
+      "reason": "Mandatory experience floor is 4+ years."
+    },
+    {
+      "id": 12,
+      "company": "pwc",
+      "title": "Backend Developer –Intern, Specialist",
+      "location": "Hyderabad - My Home Twitza",
+      "url": "https://pwc.wd3.myworkdayjobs.com/crm_experienced_careers_site/job/Hyderabad---My-Home-Twitza/Backend-Developer--Intern--Specialist_741793WD",
+      "status": "qualifies_for_evaluation",
+      "reason": "Backend internship/specialist role requiring 1+ year and matching Java/Python/API/CI experience."
+    },
+    {
+      "id": 13,
+      "company": "nordsonhcm",
+      "title": "Software Engineer II",
+      "location": "India - Bangalore",
+      "url": "https://nordsonhcm.wd501.myworkdayjobs.com/nordsoncareers/job/India---Bangalore/Software-Engineer-II_REQ51725",
+      "status": "rejected_filter",
+      "reason": "Mandatory experience floor is 4+ years."
+    },
+    {
+      "id": 14,
+      "company": "nike",
+      "title": "Software Engineer II, ITC",
+      "location": "Karnataka, India",
+      "url": "https://nike.wd1.myworkdayjobs.com/nke/job/Karnataka-India/Software-Engineer-II--ITC_R-85381",
+      "status": "rejected_filter",
+      "reason": "Mandatory experience floor is 4+ years."
+    },
+    {
+      "id": 15,
+      "company": "nike",
+      "title": "Software Engineer III, ITC",
+      "location": "Karnataka, India",
+      "url": "https://nike.wd1.myworkdayjobs.com/nke/job/Karnataka-India/Software-Engineer-III--ITC_R-77956-1",
+      "status": "rejected_filter",
+      "reason": "Role level/title is outside the new-grad, entry, junior, or associate target."
+    },
+    {
+      "id": 16,
+      "company": "ncratleos",
+      "title": "Azure AI Engineer",
+      "location": "GURGAON, IND",
+      "url": "https://ncratleos.wd1.myworkdayjobs.com/ext_apacatleos/job/GURGAON-IND/Azure-AI-Engineer_R1153697",
+      "status": "rejected_filter",
+      "reason": "Mandatory experience floor is 4+ years."
+    },
+    {
+      "id": 17,
+      "company": "lowes",
+      "title": "Software Engineer_Frontend",
+      "location": "Bengaluru",
+      "url": "https://lowes.wd5.myworkdayjobs.com/lws_external_cs/job/Bengaluru/Software-Engineer_JR-02476003",
+      "status": "rejected_filter",
+      "reason": "Mandatory qualifications, role focus, or evidence fit is below the hard-gate standard for an early-career application."
+    },
+    {
+      "id": 18,
+      "company": "lbg",
+      "title": "AI Engineer",
+      "location": "Hyderabad Knowledge Park Tower 2",
+      "url": "https://lbg.wd3.myworkdayjobs.com/lloyds_technology_centre/job/Hyderabad-Knowledge-Park-Tower-2/AI-Engineer_160696",
+      "status": "rejected_filter",
+      "reason": "Mandatory experience floor is 4+ years."
+    },
+    {
+      "id": 19,
+      "company": "hp",
+      "title": "Embedded Systems and Platform Engineer",
+      "location": "Bengaluru, Karnātaka, India",
+      "url": "https://hp.wd5.myworkdayjobs.com/externalcareersite/job/Bengaluru-Karntaka-India/Embedded-Systems-and-Platform-Engineer_3164854-2",
+      "status": "rejected_filter",
+      "reason": "Mandatory specialization is not supported strongly enough by approved candidate evidence."
+    },
+    {
+      "id": 20,
+      "company": "hp",
+      "title": "Embedded Systems and Platform Engineer",
+      "location": "Bengaluru, Karnātaka, India",
+      "url": "https://hp.wd5.myworkdayjobs.com/exteu-ac-careersite/job/Bengaluru-Karntaka-India/Embedded-Systems-and-Platform-Engineer_3164854-1",
+      "status": "rejected_filter",
+      "reason": "Mandatory specialization is not supported strongly enough by approved candidate evidence."
+    },
+    {
+      "id": 21,
+      "company": "harriscomputer",
+      "title": "Software Engineer in Test",
+      "location": "Remote - India",
+      "url": "https://harriscomputer.wd3.myworkdayjobs.com/gbs/job/Remote---India/Software-Engineer-in-Test_R0044611-2",
+      "status": "rejected_filter",
+      "reason": "Mandatory experience floor is 4+ years."
+    },
+    {
+      "id": 22,
+      "company": "barclays",
+      "title": "Software Engineer - Java",
+      "location": "Pune, Gera Commerzone SEZ",
+      "url": "https://barclays.wd3.myworkdayjobs.com/external_career_site_barclays/job/Pune-Gera-Commerzone-SEZ/Software-Engineer---Java_JR-0000114901",
+      "status": "rejected_filter",
+      "reason": "Mandatory qualifications, role focus, or evidence fit is below the hard-gate standard for an early-career application."
+    },
+    {
+      "id": 23,
+      "company": "barclays",
+      "title": "Software Engineer-UI Developer",
+      "location": "Pune, Gera Commerzone SEZ",
+      "url": "https://barclays.wd3.myworkdayjobs.com/external_career_site_barclays/job/Pune-Gera-Commerzone-SEZ/Software-Engineer-UI-Developer_JR-0000114892-1",
+      "status": "rejected_filter",
+      "reason": "Mandatory qualifications, role focus, or evidence fit is below the hard-gate standard for an early-career application."
+    },
+    {
+      "id": 24,
+      "company": "analogdevices",
+      "title": "Cloud AI Engineer",
+      "location": "India, Bangalore, RMZ",
+      "url": "https://analogdevices.wd1.myworkdayjobs.com/external/job/India-Bangalore-RMZ/Cloud-AI-Engineer_R263733-1",
+      "status": "rejected_filter",
+      "reason": "Mandatory qualifications, role focus, or evidence fit is below the hard-gate standard for an early-career application."
+    },
+    {
+      "id": 25,
+      "company": "ciroos",
+      "title": "Forward Deployed Engineer - India",
+      "location": "Bengaluru · Gurugram · India",
+      "url": "https://jobs.ashbyhq.com/ciroos/4b011648-8f9e-4caf-a757-10fae76649e9",
+      "status": "rejected_filter",
+      "reason": "Mandatory 3+ year requirement is not visibly flexible enough for an exception."
+    },
+    {
+      "id": 26,
+      "company": "resilinc",
+      "title": "Software Engineer",
+      "location": "India",
+      "url": "https://jobs.lever.co/resilinc/b3b9f21c-f5c6-444e-b27f-4035a8c7a1e0",
+      "status": "qualifies_for_evaluation",
+      "reason": "2–4 year backend/data role; minimum is within the target band and fit is unusually strong."
+    },
+    {
+      "id": 27,
+      "company": "nice",
+      "title": "Specialist Software Engineer (Python)",
+      "location": "India - Pune",
+      "url": "https://boards.eu.greenhouse.io/nice/jobs/4928224101?gh_jid=4928224101",
+      "status": "rejected_filter",
+      "reason": "Role level/title is outside the new-grad, entry, junior, or associate target."
+    },
+    {
+      "id": 28,
+      "company": "digicert",
+      "title": "Software Engineer",
+      "location": "Bangalore, India",
+      "url": "https://www.digicert.com/careers/?gh_jid=8605291002",
+      "status": "failed_technical",
+      "reason": "Official ATS page did not expose enough JD content to verify mandatory qualifications."
+    },
+    {
+      "id": 29,
+      "company": "turing",
+      "title": "Software Engineer",
+      "location": "India - Remote",
+      "url": "https://job-boards.greenhouse.io/turing/jobs/6115695004",
+      "status": "rejected_filter",
+      "reason": "Mandatory experience floor is 4+ years."
+    },
+    {
+      "id": 30,
+      "company": "granica",
+      "title": "Software Engineer, Infrastructure (Bengaluru)",
+      "location": "India- Bengaluru",
+      "url": "https://jobs.ashbyhq.com/granica/7aaa13dc-df48-446f-8df6-1554158b84f1",
+      "status": "rejected_filter",
+      "reason": "Mandatory experience floor is 4+ years."
+    },
+    {
+      "id": 31,
+      "company": "disco",
+      "title": "Software Engineer III",
+      "location": "Gurugram, Haryana, India",
+      "url": "https://www.csdisco.com/careers-listing?gh_jid=8634461002",
+      "status": "rejected_filter",
+      "reason": "Role level/title is outside the new-grad, entry, junior, or associate target."
+    },
+    {
+      "id": 32,
+      "company": "csciconsulting",
+      "title": "Full Stack Java Developer",
+      "location": "Indianapolis, IN",
+      "url": "https://job-boards.greenhouse.io/csciconsulting/jobs/5354760008",
+      "status": "rejected_filter",
+      "reason": "Location does not establish that the role can hire or contract the candidate in India."
+    },
+    {
+      "id": 33,
+      "company": "zafinlabsamericasinc",
+      "title": "AI Engineer III",
+      "location": "India - Trivandrum",
+      "url": "https://job-boards.greenhouse.io/zafinlabsamericasinc/jobs/5162835007",
+      "status": "rejected_filter",
+      "reason": "Role level/title is outside the new-grad, entry, junior, or associate target."
+    },
+    {
+      "id": 34,
+      "company": "usbank",
+      "title": "Software Engineer - React Js",
+      "location": "Chennai, India",
+      "url": "https://usbank.wd1.myworkdayjobs.com/us_bank_careers/job/Chennai-India/Senior-Software-Engineer---React-Js_2026-0016989-1",
+      "status": "rejected_filter",
+      "reason": "Mandatory qualifications, role focus, or evidence fit is below the hard-gate standard for an early-career application."
+    },
+    {
+      "id": 35,
+      "company": "usbank",
+      "title": "Software Engineer",
+      "location": "Chennai, India",
+      "url": "https://usbank.wd1.myworkdayjobs.com/us_bank_careers/job/Chennai-India/Software-Engineer_2026-0017390-1",
+      "status": "rejected_filter",
+      "reason": "Mandatory qualifications, role focus, or evidence fit is below the hard-gate standard for an early-career application."
+    },
+    {
+      "id": 36,
+      "company": "shell",
+      "title": "Software Engineer ENDUR",
+      "location": "Bangalore RMZ-ECO WORLD",
+      "url": "https://shell.wd3.myworkdayjobs.com/shellcareers/job/Bangalore-RMZ-ECO-WORLD/Software-Engineer-ENDUR_R202124-2",
+      "status": "rejected_filter",
+      "reason": "Mandatory experience floor is 4+ years."
+    },
+    {
+      "id": 37,
+      "company": "santander",
+      "title": "Python Software Engineer",
+      "location": "",
+      "url": "https://santander.wd3.myworkdayjobs.com/santandercareers/job/Python-Software-Engineer_Req1552826",
+      "status": "rejected_filter",
+      "reason": "Mandatory qualifications, role focus, or evidence fit is below the hard-gate standard for an early-career application."
+    },
+    {
+      "id": 38,
+      "company": "nvidia",
+      "title": "Software Engineer, Production Engineering",
+      "location": "India, Bengaluru",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/India-Bengaluru/Software-Engineer--Production-Engineering_JR2020074-1",
+      "status": "rejected_filter",
+      "reason": "Mandatory qualifications, role focus, or evidence fit is below the hard-gate standard for an early-career application."
+    },
+    {
+      "id": 39,
+      "company": "nike",
+      "title": "Software Engineer II, Global Converse, ITC",
+      "location": "Karnataka, India",
+      "url": "https://nike.wd1.myworkdayjobs.com/nke/job/Karnataka-India/Software-Engineer-II--Global-Converse--ITC_R-86717",
+      "status": "rejected_filter",
+      "reason": "Mandatory qualifications, role focus, or evidence fit is below the hard-gate standard for an early-career application."
+    },
+    {
+      "id": 40,
+      "company": "mastercard",
+      "title": "Software Engineer II (Mainframe Developer)",
+      "location": "Pune, India",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/corporatecareers/job/Pune-India/Software-Engineer-II--Mainframe-Developer-_R-262302",
+      "status": "rejected_filter",
+      "reason": "Mandatory specialization is not supported strongly enough by approved candidate evidence."
+    },
+    {
+      "id": 41,
+      "company": "kyndryl",
+      "title": "Software Engineering - Development",
+      "location": "INMANBP Bangalore (INMANBP) Manyatha",
+      "url": "https://kyndryl.wd5.myworkdayjobs.com/kyndrylprofessionalcareers/job/INMANBP-Bangalore-INMANBP-Manyatha/Software-Engineering---Development_R-61863-1",
+      "status": "qualifies_for_evaluation",
+      "reason": "No mandatory year floor stated; cloud-native DevOps and agentic-AI work align strongly."
+    },
+    {
+      "id": 42,
+      "company": "infios",
+      "title": "Technical Consultant(Java Developer)",
+      "location": "Bangalore, India",
+      "url": "https://infios.wd502.myworkdayjobs.com/infios/job/Bangalore-India/Technical-Consultant_JR102699-1",
+      "status": "rejected_filter",
+      "reason": "Mandatory qualifications, role focus, or evidence fit is below the hard-gate standard for an early-career application."
+    },
+    {
+      "id": 43,
+      "company": "hpe",
+      "title": "Packet Forwarding Software Engineer",
+      "location": "Bengaluru, Karnātaka, India",
+      "url": "https://hpe.wd5.myworkdayjobs.com/acjobsite/job/Bengaluru-Karntaka-India/Packet-Forwarding-Software-Engineer_1198240",
+      "status": "rejected_filter",
+      "reason": "Mandatory specialization is not supported strongly enough by approved candidate evidence."
+    },
+    {
+      "id": 44,
+      "company": "hpe",
+      "title": "Packet Forwarding Software Engineer",
+      "location": "Bengaluru, Karnātaka, India",
+      "url": "https://hpe.wd5.myworkdayjobs.com/wfmathpe/job/Bengaluru-Karntaka-India/Packet-Forwarding-Software-Engineer_1198240-1",
+      "status": "rejected_filter",
+      "reason": "Mandatory specialization is not supported strongly enough by approved candidate evidence."
+    },
+    {
+      "id": 45,
+      "company": "db",
+      "title": "Full Stack Engineer, AVP",
+      "location": "Bangalore, Velankani Tech Park",
+      "url": "https://db.wd3.myworkdayjobs.com/dbwebsite/job/Bangalore-Velankani-Tech-Park/Full-Stack-Engineer--AVP_R0441028-1",
+      "status": "rejected_filter",
+      "reason": "Role level/title is outside the new-grad, entry, junior, or associate target."
+    },
+    {
+      "id": 46,
+      "company": "db",
+      "title": "Full Stack Engineer, AVP",
+      "location": "Bangalore, Velankani Tech Park",
+      "url": "https://db.wd3.myworkdayjobs.com/dwswebsite/job/Bangalore-Velankani-Tech-Park/Full-Stack-Engineer--AVP_R0441028",
+      "status": "rejected_filter",
+      "reason": "Role level/title is outside the new-grad, entry, junior, or associate target."
+    },
+    {
+      "id": 47,
+      "company": "columbiasportswearcompany",
+      "title": "Atlassian Software Engineer",
+      "location": "Bangalore, Karnataka, India",
+      "url": "https://columbiasportswearcompany.wd5.myworkdayjobs.com/csc_careers/job/Bangalore-Karnataka-India/Atlassian-Software-Engineer_R-019876-2",
+      "status": "rejected_filter",
+      "reason": "Mandatory experience floor is 4+ years."
+    },
+    {
+      "id": 48,
+      "company": "chevron",
+      "title": "Integration Software Engineer",
+      "location": "Bengaluru, Karnataka, India",
+      "url": "https://chevron.wd5.myworkdayjobs.com/jobs/job/Bengaluru-Karnataka-India/Integration-Software-Engineer_R000072354-4",
+      "status": "rejected_filter",
+      "reason": "Mandatory qualifications, role focus, or evidence fit is below the hard-gate standard for an early-career application."
+    },
+    {
+      "id": 49,
+      "company": "chevron",
+      "title": "Integration Software Engineer",
+      "location": "Bengaluru, Karnataka, India",
+      "url": "https://chevron.wd5.myworkdayjobs.com/jobs/job/Bengaluru-Karnataka-India/Integration-Software-Engineer_R000072355",
+      "status": "rejected_filter",
+      "reason": "Mandatory experience floor is 4+ years."
+    },
+    {
+      "id": 50,
+      "company": "boeing",
+      "title": "Experienced Software Engineer - FSD",
+      "location": "IND - Bangalore, India",
+      "url": "https://boeing.wd1.myworkdayjobs.com/external_careers/job/IND---Bangalore-India/Experienced-Software-Engineer---FSD_JR2026515903-1",
+      "status": "rejected_filter",
+      "reason": "Role level/title is outside the new-grad, entry, junior, or associate target."
+    },
+    {
+      "id": 51,
+      "company": "barclays",
+      "title": "Software Engineer",
+      "location": "Pune, Gera Commerzone SEZ",
+      "url": "https://barclays.wd3.myworkdayjobs.com/external_career_site_barclays/job/Pune-Gera-Commerzone-SEZ/Software-Engineer_JR-0000117578",
+      "status": "rejected_filter",
+      "reason": "Mandatory qualifications, role focus, or evidence fit is below the hard-gate standard for an early-career application."
+    },
+    {
+      "id": 52,
+      "company": "barclays",
+      "title": "Software Engineer",
+      "location": "Pune, Gera Commerzone SEZ",
+      "url": "https://barclays.wd3.myworkdayjobs.com/external_career_site_barclays/job/Pune-Gera-Commerzone-SEZ/Software-Engineer_JR-0000115800",
+      "status": "rejected_filter",
+      "reason": "Mandatory qualifications, role focus, or evidence fit is below the hard-gate standard for an early-career application."
+    },
+    {
+      "id": 53,
+      "company": "avav",
+      "title": "Full-Stack Software Engineer",
+      "location": "",
+      "url": "https://avav.wd1.myworkdayjobs.com/avav/job/Full-Stack-Software-Engineer_6695",
+      "status": "rejected_filter",
+      "reason": "Mandatory qualifications, role focus, or evidence fit is below the hard-gate standard for an early-career application."
+    },
+    {
+      "id": 54,
+      "company": "pingidentity",
+      "title": "Software Engineer II",
+      "location": "Bengaluru, Karnataka, India",
+      "url": "https://job-boards.greenhouse.io/pingidentity/jobs/8617357002",
+      "status": "rejected_filter",
+      "reason": "Mandatory experience floor is 4+ years."
+    },
+    {
+      "id": 55,
+      "company": "pingidentity",
+      "title": "Software Engineer II",
+      "location": "Bengaluru, Karnataka, India",
+      "url": "https://job-boards.greenhouse.io/pingidentity/jobs/8617362002",
+      "status": "rejected_filter",
+      "reason": "Mandatory experience floor is 4+ years."
+    },
+    {
+      "id": 56,
+      "company": "okta",
+      "title": "Solutions Engineer, Okta",
+      "location": "Bengaluru, India",
+      "url": "https://www.okta.com/company/careers/opportunity/8064221?gh_jid=8064221",
+      "status": "rejected_filter",
+      "reason": "Mandatory experience floor is 4+ years."
+    },
+    {
+      "id": 57,
+      "company": "bjakcareer",
+      "title": "Applied AI Engineer (India)",
+      "location": "India",
+      "url": "https://jobs.ashbyhq.com/bjakcareer/416c3505-bc04-4b6e-8c60-fae0ea8b947e",
+      "status": "qualifies_for_evaluation",
+      "reason": "No mandatory year floor stated; hands-on agents, RAG, guardrails, and Python/TypeScript align."
+    },
+    {
+      "id": 58,
+      "company": "bjakcareer",
+      "title": "Backend Software Engineer - AI Neobank App (India)",
+      "location": "India",
+      "url": "https://jobs.ashbyhq.com/bjakcareer/7f6692fb-eed1-4134-9baa-76cb68850037",
+      "status": "rejected_filter",
+      "reason": "Mandatory 3+ year requirement is not visibly flexible enough for an exception."
+    },
+    {
+      "id": 59,
+      "company": "bjakcareer",
+      "title": "Full Stack Software Engineer - AI Neobank App (India)",
+      "location": "India",
+      "url": "https://jobs.ashbyhq.com/bjakcareer/08454ce3-a782-45b8-834e-a3c9452b1647",
+      "status": "rejected_filter",
+      "reason": "Mandatory 3+ year requirement is not visibly flexible enough for an exception."
+    },
+    {
+      "id": 60,
+      "company": "bjakcareer",
+      "title": "Backend Developer (India)",
+      "location": "India",
+      "url": "https://jobs.ashbyhq.com/bjakcareer/91d1eff2-5941-4842-be80-568701debc16",
+      "status": "qualifies_for_evaluation",
+      "reason": "No mandatory year floor stated; production backend, queues, APIs, security, and reliability align."
+    },
+    {
+      "id": 61,
+      "company": "bjakcareer",
+      "title": "Applied AI Engineer - AI Neobank App (India)",
+      "location": "India",
+      "url": "https://jobs.ashbyhq.com/bjakcareer/e8406b78-3cb3-436c-8a22-6e1d44cf8816",
+      "status": "qualifies_for_evaluation",
+      "reason": "No mandatory year floor stated; role-specific agent/evaluation/fallback requirements align."
+    },
+    {
+      "id": 62,
+      "company": "bjakcareer",
+      "title": "Full Stack Engineer (India)",
+      "location": "India",
+      "url": "https://jobs.ashbyhq.com/bjakcareer/38dec656-2a11-42c6-b904-5f353d2c84e2",
+      "status": "qualifies_for_evaluation",
+      "reason": "No mandatory year floor stated; full-stack product and workflow ownership align."
+    },
+    {
+      "id": 63,
+      "company": "veeva",
+      "title": "IT Integration Engineer",
+      "location": "India - Hyderabad",
+      "url": "https://jobs.lever.co/veeva/1e905d41-564a-4d55-90f0-464d39ada62a",
+      "status": "rejected_filter",
+      "reason": "Mandatory qualifications, role focus, or evidence fit is below the hard-gate standard for an early-career application."
+    },
+    {
+      "id": 64,
+      "company": "kognitos",
+      "title": "Forward Deployed Engineer",
+      "location": "Bengaluru",
+      "url": "https://jobs.ashbyhq.com/kognitos/82c74eb6-5e5f-4aae-ba2c-02e764c40084",
+      "status": "rejected_filter",
+      "reason": "Role is support-, presales-, or account-outcome-heavy rather than a qualifying coding role."
+    },
+    {
+      "id": 65,
+      "company": "sambanovasystems",
+      "title": "Forward Deployment Engineer",
+      "location": "Bengaluru, Karnataka, India",
+      "url": "https://sambanova.ai/sambanova-available-positions/?gh_jid=6115612004",
+      "status": "rejected_filter",
+      "reason": "Mandatory qualifications, role focus, or evidence fit is below the hard-gate standard for an early-career application."
+    },
+    {
+      "id": 66,
+      "company": "scopely",
+      "title": "Software Engineer (Tools)",
+      "location": "IN - Bangalore, India",
+      "url": "https://job-boards.greenhouse.io/scopely/jobs/5347389008?gh_jid=5347389008",
+      "status": "qualifies_for_evaluation",
+      "reason": "2+ years requested; Python backend/full-stack fit is strong enough for evaluation."
+    },
+    {
+      "id": 67,
+      "company": "plane",
+      "title": "Backend Engineer (Python / FastAPI)",
+      "location": "Hyderabad, India",
+      "url": "https://jobs.ashbyhq.com/plane/a3422f16-4c84-4e8a-ba35-ad66657110ec",
+      "status": "rejected_filter",
+      "reason": "Mandatory 3+ year requirement is not visibly flexible enough for an exception."
+    },
+    {
+      "id": 68,
+      "company": "plane",
+      "title": "Backend Engineer – (Python / Django)",
+      "location": "Hyderabad, India",
+      "url": "https://jobs.ashbyhq.com/plane/00beeb42-56c0-48ce-9082-9fba93836b54",
+      "status": "rejected_filter",
+      "reason": "Mandatory experience floor is 4+ years."
+    },
+    {
+      "id": 69,
+      "company": "cartesia",
+      "title": "Software Engineer, Platform (India)",
+      "location": "Bangalore",
+      "url": "https://jobs.ashbyhq.com/cartesia/9d9c6cc0-218c-4fd4-a478-3e4b37de1d76",
+      "status": "rejected_filter",
+      "reason": "Mandatory experience floor is 4+ years."
+    },
+    {
+      "id": 70,
+      "company": "weekdayworks",
+      "title": "Software Engineer - (Machine learning Platform)",
+      "location": "Bengaluru",
+      "url": "https://jobs.lever.co/weekdayworks/d9123f11-1cd1-4f09-8880-be8dc4612039",
+      "status": "rejected_filter",
+      "reason": "Mandatory experience floor is 4+ years."
+    },
+    {
+      "id": 71,
+      "company": "nice",
+      "title": "Software Engineer, CX",
+      "location": "India - Pune",
+      "url": "https://boards.eu.greenhouse.io/nice/jobs/4920037101?gh_jid=4920037101",
+      "status": "rejected_filter",
+      "reason": "Mandatory 3+ year requirement is not visibly flexible enough for an exception."
+    },
+    {
+      "id": 72,
+      "company": "scopely",
+      "title": "Software Engineer (Unity)",
+      "location": "IN - Bangalore, India",
+      "url": "https://job-boards.greenhouse.io/scopely/jobs/5347387008?gh_jid=5347387008",
+      "status": "rejected_filter",
+      "reason": "Mandatory specialization is not supported strongly enough by approved candidate evidence."
+    },
+    {
+      "id": 73,
+      "company": "bjakcareer",
+      "title": "Android Software Engineer - AI Neobank App (India)",
+      "location": "India",
+      "url": "https://jobs.ashbyhq.com/bjakcareer/763c619d-c688-41e0-bf11-155220e86c03",
+      "status": "rejected_filter",
+      "reason": "Mandatory specialization is not supported strongly enough by approved candidate evidence."
+    },
+    {
+      "id": 74,
+      "company": "bjakcareer",
+      "title": "iOS Software Engineer - AI Neobank App (India)",
+      "location": "India",
+      "url": "https://jobs.ashbyhq.com/bjakcareer/540842f6-ddd9-4ccb-91dd-c828bc99273c",
+      "status": "rejected_filter",
+      "reason": "Mandatory specialization is not supported strongly enough by approved candidate evidence."
+    },
+    {
+      "id": 75,
+      "company": "synechron",
+      "title": "Java Developer / Spring/Hibernate/JSF, REST & SQL",
+      "location": "Pune - Hinjewadi (Ascendas)",
+      "url": "https://synechron.wd1.myworkdayjobs.com/synechroncareers/job/Pune---Hinjewadi-Ascendas/Java-Developer---Spring-Hibernate-JSF--REST---SQL_JR1040572",
+      "status": "rejected_filter",
+      "reason": "Mandatory qualifications, role focus, or evidence fit is below the hard-gate standard for an early-career application."
+    },
+    {
+      "id": 76,
+      "company": "synechron",
+      "title": "Java Developer / Spring Boot, REST APIs & SQL",
+      "location": "Pune - Hinjewadi (Ascendas)",
+      "url": "https://synechron.wd1.myworkdayjobs.com/synechroncareers/job/Pune---Hinjewadi-Ascendas/Java-Developer---Spring-Boot--REST-APIs---SQL_JR1040573",
+      "status": "rejected_filter",
+      "reason": "Mandatory qualifications, role focus, or evidence fit is below the hard-gate standard for an early-career application."
+    },
+    {
+      "id": 77,
+      "company": "rbs",
+      "title": "Java Software Engineer",
+      "location": "Bengaluru",
+      "url": "https://rbs.wd3.myworkdayjobs.com/rbs/job/Bengaluru/Java-Software-Engineer_R-00281120-1",
+      "status": "rejected_filter",
+      "reason": "Mandatory qualifications, role focus, or evidence fit is below the hard-gate standard for an early-career application."
+    },
+    {
+      "id": 78,
+      "company": "nike",
+      "title": "Software Engineer III, ITC",
+      "location": "Karnataka, India",
+      "url": "https://nike.wd1.myworkdayjobs.com/nke/job/Karnataka-India/Software-Engineer-III--ITC_R-86410",
+      "status": "rejected_filter",
+      "reason": "Role level/title is outside the new-grad, entry, junior, or associate target."
+    },
+    {
+      "id": 79,
+      "company": "mastercard",
+      "title": "Software Engineer II Java Full stack Developer",
+      "location": "Pune, India",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/corporatecareers/job/Pune-India/Software-Engineer-II-Java-Full-stack-Developer_R-281493",
+      "status": "rejected_filter",
+      "reason": "Mandatory qualifications, role focus, or evidence fit is below the hard-gate standard for an early-career application."
+    },
+    {
+      "id": 80,
+      "company": "lbg",
+      "title": "Software Engineer I",
+      "location": "Hyderabad Knowledge City (LTC)",
+      "url": "https://lbg.wd3.myworkdayjobs.com/lloyds_technology_centre/job/Hyderabad-Knowledge-City-LTC/Software-Engineer-I_160527",
+      "status": "qualifies_for_evaluation",
+      "reason": "Explicit Level 2 / Software Engineer I role designed for guided early-career development."
+    },
+    {
+      "id": 81,
+      "company": "hpe",
+      "title": "Software Engineer - SASE",
+      "location": "Bengaluru, Karnātaka, India",
+      "url": "https://hpe.wd5.myworkdayjobs.com/acjobsite/job/Bengaluru-Karntaka-India/Software-Engineer---SASE_1207728",
+      "status": "rejected_filter",
+      "reason": "Mandatory qualifications, role focus, or evidence fit is below the hard-gate standard for an early-career application."
+    },
+    {
+      "id": 82,
+      "company": "hpe",
+      "title": "Software Engineer - SASE",
+      "location": "Bengaluru, Karnātaka, India",
+      "url": "https://hpe.wd5.myworkdayjobs.com/wfmathpe/job/Bengaluru-Karntaka-India/Software-Engineer---SASE_1207728-1",
+      "status": "rejected_filter",
+      "reason": "Mandatory qualifications, role focus, or evidence fit is below the hard-gate standard for an early-career application."
+    },
+    {
+      "id": 83,
+      "company": "hpe",
+      "title": "Software Engineer - SASE",
+      "location": "Bengaluru, Karnātaka, India",
+      "url": "https://hpe.wd5.myworkdayjobs.com/jobsathpe/job/Bengaluru-Karntaka-India/Software-Engineer---SASE_1207728-2",
+      "status": "rejected_filter",
+      "reason": "Mandatory qualifications, role focus, or evidence fit is below the hard-gate standard for an early-career application."
+    },
+    {
+      "id": 84,
+      "company": "candescent",
+      "title": "Software Engineer IV - Java Backend developer",
+      "location": "IN - Bangalore - Office",
+      "url": "https://candescent.wd501.myworkdayjobs.com/hiring/job/IN---Bangalore---Office/Software-Engineer-IV---Java-Backend-developer_R0001994-1",
+      "status": "rejected_filter",
+      "reason": "Role level/title is outside the new-grad, entry, junior, or associate target."
+    },
+    {
+      "id": 85,
+      "company": "analogdevices",
+      "title": "Software Engineer",
+      "location": "India, Bangalore, Nova",
+      "url": "https://analogdevices.wd1.myworkdayjobs.com/external/job/India-Bangalore-Nova/Software-Engineer_R263778",
+      "status": "rejected_filter",
+      "reason": "Mandatory qualifications, role focus, or evidence fit is below the hard-gate standard for an early-career application."
+    },
+    {
+      "id": 86,
+      "company": "veeamsoftware",
+      "title": "Software Engineer III - Backend",
+      "location": "Hyderabad, India",
+      "url": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4838157101",
+      "status": "rejected_filter",
+      "reason": "Role level/title is outside the new-grad, entry, junior, or associate target."
+    },
+    {
+      "id": 87,
+      "company": "blackduck",
+      "title": "Software Engineer 3",
+      "location": "Bangalore",
+      "url": "https://job-boards.greenhouse.io/blackduck/jobs/5286615008",
+      "status": "rejected_filter",
+      "reason": "Role level/title is outside the new-grad, entry, junior, or associate target."
+    },
+    {
+      "id": 88,
+      "company": "ontic",
+      "title": "Software Engineer",
+      "location": "Noida / Pune",
+      "url": "https://jobs.ashbyhq.com/ontic/0426253f-e03c-4d57-be4c-ea02fdab7097",
+      "status": "rejected_filter",
+      "reason": "Mandatory qualifications, role focus, or evidence fit is below the hard-gate standard for an early-career application."
+    },
+    {
+      "id": 89,
+      "company": "terac",
+      "title": "Experienced Software Engineers: Coding Tasks for AI Systems",
+      "location": "India",
+      "url": "https://jobs.ashbyhq.com/terac/384b32e6-9e69-4a80-b6c9-b9e3e009abb9",
+      "status": "rejected_filter",
+      "reason": "Role level/title is outside the new-grad, entry, junior, or associate target."
+    },
+    {
+      "id": 90,
+      "company": "headoutlinkedin",
+      "title": "Software Engineer, Apps",
+      "location": "Bengaluru",
+      "url": "https://job-boards.greenhouse.io/headoutlinkedin/jobs/4696465006",
+      "status": "qualifies_for_evaluation",
+      "reason": "Requires 6+ months of React Native mobile work; approved sources support React Native and shipped mobile project evidence."
+    },
+    {
+      "id": 91,
+      "company": "gravitonresearchcapital",
+      "title": "Intern - Software Engineer - Ultra Low Latency (2028 Graduates)",
+      "location": "Gurugram, Haryana, India; Singapore",
+      "url": "https://boards.greenhouse.io/gravitonresearchcapital/jobs/8630909002?gh_jid=8630909002",
+      "status": "rejected_filter",
+      "reason": "Graduation-year eligibility does not match the candidate’s 2026 degree."
+    },
+    {
+      "id": 92,
+      "company": "rwazi",
+      "title": "AI Engineer – Marketing & GTM Systems",
+      "location": "Global (Remote)",
+      "url": "https://jobs.ashbyhq.com/rwazi/21ca2582-5797-4488-b46f-5103f9d77226",
+      "status": "rejected_filter",
+      "reason": "Location does not establish that the role can hire or contract the candidate in India."
+    },
+    {
+      "id": 93,
+      "company": "canonical",
+      "title": "Graduate Software Engineer, Open Source and Linux, Canonical Ubuntu",
+      "location": "Home based - Worldwide",
+      "url": "https://job-boards.greenhouse.io/canonical/jobs/8055009",
+      "status": "qualifies_for_evaluation",
+      "reason": "Explicit 2025/2026 graduate and worldwide-remote role; India is not excluded."
+    },
+    {
+      "id": 94,
+      "company": "gravitonresearchcapital",
+      "title": "Intern - Software Engineer (2028 Graduates)",
+      "location": "Gurugram, Haryana, India; Singapore",
+      "url": "https://boards.greenhouse.io/gravitonresearchcapital/jobs/8630807002?gh_jid=8630807002",
+      "status": "rejected_filter",
+      "reason": "Graduation-year eligibility does not match the candidate’s 2026 degree."
+    },
+    {
+      "id": 95,
+      "company": "truveta",
+      "title": "Software Engineer – Infrastructure Services",
+      "location": "Hyderabad, India",
+      "url": "https://job-boards.greenhouse.io/truveta/jobs/6114473004",
+      "status": "qualifies_for_evaluation",
+      "reason": "2+ years requested; platform, Kubernetes, reliability, and open-source contribution fit is unusually strong."
+    },
+    {
+      "id": 96,
+      "company": "diligentcorporation",
+      "title": "Software Engineer II - .NET",
+      "location": "Bengaluru, Karnataka, India",
+      "url": "https://job-boards.greenhouse.io/diligentcorporation/jobs/6099393004",
+      "status": "rejected_filter",
+      "reason": "Mandatory 3+ year requirement is not visibly flexible enough for an exception."
+    },
+    {
+      "id": 97,
+      "company": "synechron",
+      "title": "Full Stack Java Developer",
+      "location": "Bengaluru - EC-2 Gateway campus",
+      "url": "https://synechron.wd1.myworkdayjobs.com/synechroncareers/job/Bengaluru---EC-2-Gateway-campus/Full-Stack-Java-Developer_JR1041769",
+      "status": "rejected_filter",
+      "reason": "Mandatory qualifications, role focus, or evidence fit is below the hard-gate standard for an early-career application."
+    },
+    {
+      "id": 98,
+      "company": "gitlab",
+      "title": "Intermediate Backend Engineer - Analytics Instrumentation",
+      "location": "Remote, India",
+      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8615389002",
+      "status": "rejected_filter",
+      "reason": "Role level/title is outside the new-grad, entry, junior, or associate target."
+    },
+    {
+      "id": 99,
+      "company": "usbank",
+      "title": "Software Engineer - Pega",
+      "location": "Chennai, India",
+      "url": "https://usbank.wd1.myworkdayjobs.com/us_bank_careers/job/Chennai-India/Software-Engineer---Pega_2026-0017049-1",
+      "status": "rejected_filter",
+      "reason": "Mandatory specialization is not supported strongly enough by approved candidate evidence."
+    },
+    {
+      "id": 100,
+      "company": "pwc",
+      "title": "IN_Associate_Software Engineer – Java Backend Development_GCC_Advisory_Bangalore",
+      "location": "Bengaluru Millenia",
+      "url": "https://pwc.wd3.myworkdayjobs.com/global_experienced_careers/job/Bengaluru-Millenia/IN-Associate-Software-Engineer---Java-Backend-Development-GCC-Advisory-Bangalore_743455WD",
+      "status": "rejected_filter",
+      "reason": "Mandatory experience floor is 4+ years."
+    },
+    {
+      "id": 101,
+      "company": "pwc",
+      "title": "IN_Associate_Software Engineer – Java Backend Development_GCC_Advisory_Bangalore",
+      "location": "Bengaluru Millenia",
+      "url": "https://pwc.wd3.myworkdayjobs.com/global_experienced_careers/job/Bengaluru-Millenia/IN-Associate-Software-Engineer---Java-Backend-Development-GCC-Advisory-Bangalore_743456WD",
+      "status": "rejected_filter",
+      "reason": "Mandatory experience floor is 4+ years."
+    },
+    {
+      "id": 102,
+      "company": "pwc",
+      "title": "IN_Associate_Software Engineer – Java Backend Development_GCC_Advisory_Bangalore",
+      "location": "Bengaluru Millenia",
+      "url": "https://pwc.wd3.myworkdayjobs.com/nonpublic_postings/job/Bengaluru-Millenia/IN-Associate-Software-Engineer---Java-Backend-Development-GCC-Advisory-Bangalore_743455WD-2",
+      "status": "rejected_filter",
+      "reason": "Mandatory experience floor is 4+ years."
+    },
+    {
+      "id": 103,
+      "company": "pwc",
+      "title": "IN_Associate_Software Engineer – Java Backend Development_GCC_Advisory_Bangalore",
+      "location": "Bengaluru Millenia",
+      "url": "https://pwc.wd3.myworkdayjobs.com/nonpublic_postings/job/Bengaluru-Millenia/IN-Associate-Software-Engineer---Java-Backend-Development-GCC-Advisory-Bangalore_743456WD-2",
+      "status": "rejected_filter",
+      "reason": "Mandatory experience floor is 4+ years."
+    },
+    {
+      "id": 104,
+      "company": "relx",
+      "title": "Software Engineer II",
+      "location": "Chennai",
+      "url": "https://relx.wd3.myworkdayjobs.com/relx/job/Chennai/Software-Engineer-II_R115838-1",
+      "status": "rejected_filter",
+      "reason": "Mandatory experience floor is 4+ years."
+    },
+    {
+      "id": 105,
+      "company": "relx",
+      "title": "Software Engineer II",
+      "location": "Chennai",
+      "url": "https://relx.wd3.myworkdayjobs.com/lexisnexislegal/job/Chennai/Software-Engineer-II_R115838",
+      "status": "rejected_filter",
+      "reason": "Mandatory experience floor is 4+ years."
+    },
+    {
+      "id": 106,
+      "company": "q2ebanking",
+      "title": "Intermediate Software Engineer",
+      "location": "Bangalore, India",
+      "url": "https://q2ebanking.wd5.myworkdayjobs.com/q2/job/Bangalore-India/Intermediate-Software-Engineer_REQ-12645",
+      "status": "rejected_filter",
+      "reason": "Role level/title is outside the new-grad, entry, junior, or associate target."
+    },
+    {
+      "id": 107,
+      "company": "priceline",
+      "title": "Associate Software Engineer",
+      "location": "Mumbai",
+      "url": "https://priceline.wd1.myworkdayjobs.com/priceline/job/Mumbai/Associate-Software-Engineer_R5690",
+      "status": "duplicate",
+      "reason": "Same company+role as selected pipeline row 111; no duplicate application is allowed."
+    },
+    {
+      "id": 108,
+      "company": "priceline",
+      "title": "Software Engineer",
+      "location": "Mumbai",
+      "url": "https://priceline.wd1.myworkdayjobs.com/priceline/job/Mumbai/Software-Engineer_R5713",
+      "status": "rejected_filter",
+      "reason": "Mandatory qualifications, role focus, or evidence fit is below the hard-gate standard for an early-career application."
+    },
+    {
+      "id": 109,
+      "company": "priceline",
+      "title": "Associate Software Engineer",
+      "location": "Mumbai",
+      "url": "https://priceline.wd1.myworkdayjobs.com/priceline/job/Mumbai/Associate-Software-Engineer_R5715",
+      "status": "duplicate",
+      "reason": "Same company+role as selected pipeline row 111; no duplicate application is allowed."
+    },
+    {
+      "id": 110,
+      "company": "priceline",
+      "title": "Associate Software Engineer",
+      "location": "Mumbai",
+      "url": "https://priceline.wd1.myworkdayjobs.com/priceline/job/Mumbai/Associate-Software-Engineer_R5712",
+      "status": "duplicate",
+      "reason": "Same company+role as selected pipeline row 111; no duplicate application is allowed."
+    },
+    {
+      "id": 111,
+      "company": "priceline",
+      "title": "Associate Software Engineer",
+      "location": "Mumbai",
+      "url": "https://priceline.wd1.myworkdayjobs.com/priceline/job/Mumbai/Associate-Software-Engineer_R5714",
+      "status": "qualifies_for_evaluation",
+      "reason": "Best Priceline Associate requisition: 2 years requested and unusually strong FDE/internal-tools/agentic alignment."
+    },
+    {
+      "id": 112,
+      "company": "priceline",
+      "title": "Software Engineer",
+      "location": "Mumbai",
+      "url": "https://priceline.wd1.myworkdayjobs.com/priceline/job/Mumbai/Software-Engineer_R5724",
+      "status": "rejected_filter",
+      "reason": "Mandatory qualifications, role focus, or evidence fit is below the hard-gate standard for an early-career application."
+    },
+    {
+      "id": 113,
+      "company": "medtronic",
+      "title": "Enterprise Software Engineer II",
+      "location": "Nanakramguda, Hyderabad, India",
+      "url": "https://medtronic.wd1.myworkdayjobs.com/redeploymentmedtroniccareers/job/Nanakramguda-Hyderabad-India/Enterprise-Software-Engineer-II_R71426-1",
+      "status": "rejected_filter",
+      "reason": "Mandatory experience floor is 4+ years."
+    },
+    {
+      "id": 114,
+      "company": "medtronic",
+      "title": "Enterprise Software Engineer II",
+      "location": "Nanakramguda, Hyderabad, India",
+      "url": "https://medtronic.wd1.myworkdayjobs.com/medtroniccareers/job/Nanakramguda-Hyderabad-India/Enterprise-Software-Engineer-II_R71426-2",
+      "status": "rejected_filter",
+      "reason": "Mandatory experience floor is 4+ years."
+    },
+    {
+      "id": 115,
+      "company": "lowes",
+      "title": "Software Engineer Full Stack",
+      "location": "Bengaluru",
+      "url": "https://lowes.wd5.myworkdayjobs.com/lws_external_cs/job/Bengaluru/Software-Engineer-Full-Stack_JR-02561638",
+      "status": "qualifies_for_evaluation",
+      "reason": "2 years requested; broad frontend/backend/DevOps requirements fit the approved profile."
+    },
+    {
+      "id": 116,
+      "company": "hpe",
+      "title": "Software Engineer – Kernel & Networking",
+      "location": "Bengaluru, Karnātaka, India",
+      "url": "https://hpe.wd5.myworkdayjobs.com/acjobsite/job/Bengaluru-Karntaka-India/Software-Engineer---Kernel---Networking_1208996",
+      "status": "rejected_filter",
+      "reason": "Mandatory specialization is not supported strongly enough by approved candidate evidence."
+    },
+    {
+      "id": 117,
+      "company": "hpe",
+      "title": "Software Engineer - Networking Datapath (QoS/CoS/ Firewall/ACLs/Filters)",
+      "location": "Bengaluru, Karnātaka, India",
+      "url": "https://hpe.wd5.myworkdayjobs.com/acjobsite/job/Bengaluru-Karntaka-India/Software-Engineer---Networking-Datapath--L3-MPLS-Forwarding-_1203110",
+      "status": "rejected_filter",
+      "reason": "Mandatory specialization is not supported strongly enough by approved candidate evidence."
+    },
+    {
+      "id": 118,
+      "company": "hpe",
+      "title": "Software Engineer – Kernel & Networking",
+      "location": "Bengaluru, Karnātaka, India",
+      "url": "https://hpe.wd5.myworkdayjobs.com/wfmathpe/job/Bengaluru-Karntaka-India/Software-Engineer---Kernel---Networking_1208996-1",
+      "status": "rejected_filter",
+      "reason": "Mandatory specialization is not supported strongly enough by approved candidate evidence."
+    },
+    {
+      "id": 119,
+      "company": "hpe",
+      "title": "Software Engineer - Networking Datapath (QoS/CoS/ Firewall/ACLs/Filters)",
+      "location": "Bengaluru, Karnātaka, India",
+      "url": "https://hpe.wd5.myworkdayjobs.com/wfmathpe/job/Bengaluru-Karntaka-India/Software-Engineer---Networking-Datapath--L3-MPLS-Forwarding-_1203110-1",
+      "status": "rejected_filter",
+      "reason": "Mandatory specialization is not supported strongly enough by approved candidate evidence."
+    },
+    {
+      "id": 120,
+      "company": "hpe",
+      "title": "Software Engineer - Networking Datapath (QoS/CoS/ Firewall/ACLs/Filters)",
+      "location": "Bengaluru, Karnātaka, India",
+      "url": "https://hpe.wd5.myworkdayjobs.com/jobsathpe/job/Bengaluru-Karntaka-India/Software-Engineer---Networking-Datapath--L3-MPLS-Forwarding-_1203110-2",
+      "status": "rejected_filter",
+      "reason": "Mandatory specialization is not supported strongly enough by approved candidate evidence."
+    },
+    {
+      "id": 121,
+      "company": "hpe",
+      "title": "Software Engineer – Kernel & Networking",
+      "location": "Bengaluru, Karnātaka, India",
+      "url": "https://hpe.wd5.myworkdayjobs.com/jobsathpe/job/Bengaluru-Karntaka-India/Software-Engineer---Kernel---Networking_1208996-2",
+      "status": "rejected_filter",
+      "reason": "Mandatory specialization is not supported strongly enough by approved candidate evidence."
+    },
+    {
+      "id": 122,
+      "company": "convatec",
+      "title": "Forward Deployed AI Engineer",
+      "location": "India - Remote",
+      "url": "https://convatec.wd1.myworkdayjobs.com/convatec/job/India---Remote/Forward-Deployed-AI-Engineer_JR00020770",
+      "status": "rejected_filter",
+      "reason": "Mandatory qualifications, role focus, or evidence fit is below the hard-gate standard for an early-career application."
+    },
+    {
+      "id": 123,
+      "company": "convatec",
+      "title": "Applied AI Engineer",
+      "location": "India - Remote",
+      "url": "https://convatec.wd1.myworkdayjobs.com/convatec/job/India---Remote/Applied-AI-Engineer_JR00020781",
+      "status": "rejected_filter",
+      "reason": "Mandatory qualifications, role focus, or evidence fit is below the hard-gate standard for an early-career application."
+    },
+    {
+      "id": 124,
+      "company": "boeing",
+      "title": "Experienced Software Engineer – UI UX Designer",
+      "location": "IND - Bangalore, India",
+      "url": "https://boeing.wd1.myworkdayjobs.com/external_careers/job/IND---Bangalore-India/Experienced-Software-Engineer---UI-UX-Designer_JR2026516414-1",
+      "status": "rejected_filter",
+      "reason": "Role level/title is outside the new-grad, entry, junior, or associate target."
+    },
+    {
+      "id": 125,
+      "company": "boeing",
+      "title": "Experienced Apigee Platform Engineer",
+      "location": "IND - Bangalore, India",
+      "url": "https://boeing.wd1.myworkdayjobs.com/external_careers/job/IND---Bangalore-India/Experienced-Apigee-Platform-Engineer_JR2026515123-1",
+      "status": "rejected_filter",
+      "reason": "Role level/title is outside the new-grad, entry, junior, or associate target."
+    },
+    {
+      "id": 126,
+      "company": "boeing",
+      "title": "Experienced Software Engineer – UI UX Designer",
+      "location": "IND - Bangalore, India",
+      "url": "https://boeing.wd1.myworkdayjobs.com/external_subsidiary/job/IND---Bangalore-India/Experienced-Software-Engineer---UI-UX-Designer_JR2026516414",
+      "status": "rejected_filter",
+      "reason": "Role level/title is outside the new-grad, entry, junior, or associate target."
+    },
+    {
+      "id": 127,
+      "company": "boeing",
+      "title": "Experienced Apigee Platform Engineer",
+      "location": "IND - Bangalore, India",
+      "url": "https://boeing.wd1.myworkdayjobs.com/external_subsidiary/job/IND---Bangalore-India/Experienced-Apigee-Platform-Engineer_JR2026515123",
+      "status": "rejected_filter",
+      "reason": "Role level/title is outside the new-grad, entry, junior, or associate target."
+    },
+    {
+      "id": 128,
+      "company": "ag",
+      "title": "Digital Solutions Engineer",
+      "location": "Bangalore Area",
+      "url": "https://ag.wd3.myworkdayjobs.com/airbus/job/Bangalore-Area/Digital-Solutions-Engineer_JR10427836",
+      "status": "rejected_filter",
+      "reason": "Role is support-, presales-, or account-outcome-heavy rather than a qualifying coding role."
+    },
+    {
+      "id": 129,
+      "company": "pditechnologies",
+      "title": "Software Engineer III",
+      "location": "Chennai",
+      "url": "https://jobs.lever.co/pditechnologies/9bc2f3f8-b9b4-47c8-863a-22379570c9e4",
+      "status": "rejected_filter",
+      "reason": "Role level/title is outside the new-grad, entry, junior, or associate target."
+    },
+    {
+      "id": 130,
+      "company": "trendmicro",
+      "title": "Solutions Engineer - South",
+      "location": "Bangalore",
+      "url": "https://trendmicro.wd3.myworkdayjobs.com/external/job/Bangalore/Solutions-Engineer---South_R0009935",
+      "status": "rejected_filter",
+      "reason": "Mandatory experience floor is 4+ years."
+    },
+    {
+      "id": 131,
+      "company": "travelhrportal",
+      "title": "Java Developer",
+      "location": "Bangalore, India",
+      "url": "https://travelhrportal.wd1.myworkdayjobs.com/jobs/job/Bangalore-India/Java-Developer_J-80885",
+      "status": "rejected_filter",
+      "reason": "Mandatory experience floor is 4+ years."
+    },
+    {
+      "id": 132,
+      "company": "simcorp",
+      "title": "Software Engineer",
+      "location": "Hyderabad",
+      "url": "https://simcorp.wd3.myworkdayjobs.com/simcorp_jobs/job/Hyderabad/Software-Engineer-in-Accounting_R-211413",
+      "status": "rejected_filter",
+      "reason": "Mandatory qualifications, role focus, or evidence fit is below the hard-gate standard for an early-career application."
+    },
+    {
+      "id": 133,
+      "company": "pwc",
+      "title": "IN_Associate_Software Engineer – Java Backend Development_GCC_Advisory_Bangalore",
+      "location": "Bengaluru Millenia",
+      "url": "https://pwc.wd3.myworkdayjobs.com/global_experienced_careers/job/Bengaluru-Millenia/IN-Associate-Software-Engineer---Java-Backend-Development-GCC-Advisory-Bangalore_743437WD-1",
+      "status": "rejected_filter",
+      "reason": "Mandatory experience floor is 4+ years."
+    },
+    {
+      "id": 134,
+      "company": "pwc",
+      "title": "IN_Associate_Software Engineer – Java Backend Development_GCC_Advisory_Bangalore",
+      "location": "Bengaluru Millenia",
+      "url": "https://pwc.wd3.myworkdayjobs.com/global_experienced_careers/job/Bengaluru-Millenia/IN-Associate-Software-Engineer---Java-Backend-Development-GCC-Advisory-Bangalore_743438WD-1",
+      "status": "rejected_filter",
+      "reason": "Mandatory experience floor is 4+ years."
+    },
+    {
+      "id": 135,
+      "company": "pwc",
+      "title": "IN_Associate_Software Engineer – Java Backend Development_GCC_Advisory_Bangalore",
+      "location": "Bengaluru Millenia",
+      "url": "https://pwc.wd3.myworkdayjobs.com/nonpublic_postings/job/Bengaluru-Millenia/IN-Associate-Software-Engineer---Java-Backend-Development-GCC-Advisory-Bangalore_743438WD",
+      "status": "rejected_filter",
+      "reason": "Mandatory experience floor is 4+ years."
+    },
+    {
+      "id": 136,
+      "company": "rocket",
+      "title": "Software Engineer III",
+      "location": "Pune, India",
+      "url": "https://rocket.wd5.myworkdayjobs.com/rocket_careers/job/Pune-India/Software-Engineer-III_R2026-6507",
+      "status": "rejected_filter",
+      "reason": "Role level/title is outside the new-grad, entry, junior, or associate target."
+    },
+    {
+      "id": 137,
+      "company": "pwc",
+      "title": "IN_Associate_Software Engineer – Java Backend Development_GCC_Advisory_Bangalore",
+      "location": "Bengaluru Millenia",
+      "url": "https://pwc.wd3.myworkdayjobs.com/nonpublic_postings/job/Bengaluru-Millenia/IN-Associate-Software-Engineer---Java-Backend-Development-GCC-Advisory-Bangalore_743437WD",
+      "status": "rejected_filter",
+      "reason": "Mandatory experience floor is 4+ years."
+    },
+    {
+      "id": 138,
+      "company": "rbs",
+      "title": "WoW - Software Engineer, AVP",
+      "location": "Bengaluru",
+      "url": "https://rbs.wd3.myworkdayjobs.com/rbs/job/Bengaluru/WoW---Software-Engineer--AVP_R-00281402",
+      "status": "rejected_filter",
+      "reason": "Role level/title is outside the new-grad, entry, junior, or associate target."
+    },
+    {
+      "id": 139,
+      "company": "nike",
+      "title": "Software Engineer II, ITC",
+      "location": "Karnataka, India",
+      "url": "https://nike.wd1.myworkdayjobs.com/nke/job/Karnataka-India/Software-Engineer-II--ITC_R-87292",
+      "status": "rejected_filter",
+      "reason": "Mandatory qualifications, role focus, or evidence fit is below the hard-gate standard for an early-career application."
+    },
+    {
+      "id": 140,
+      "company": "lowes",
+      "title": "Software Engineer_FullStack_Java_ReactJS",
+      "location": "Bengaluru",
+      "url": "https://lowes.wd5.myworkdayjobs.com/lws_external_cs/job/Bengaluru/Software-Engineer-FullStack-Java-ReactJS_JR-02574525",
+      "status": "qualifies_for_evaluation",
+      "reason": "2+ years requested; Java/Python, REST, microservices, React, and reliability fit is unusually strong."
+    },
+    {
+      "id": 141,
+      "company": "hpe",
+      "title": "System/software engineer II",
+      "location": "Bengaluru, Karnātaka, India",
+      "url": "https://hpe.wd5.myworkdayjobs.com/acjobsite/job/Bengaluru-Karntaka-India/System-software-engineer-II_1208030",
+      "status": "rejected_filter",
+      "reason": "Mandatory qualifications, role focus, or evidence fit is below the hard-gate standard for an early-career application."
+    },
+    {
+      "id": 142,
+      "company": "hpe",
+      "title": "System/Software Engineer - Solution and System Testing for L2, L3 Protocols",
+      "location": "Bengaluru, Karnātaka, India",
+      "url": "https://hpe.wd5.myworkdayjobs.com/acjobsite/job/Bengaluru-Karntaka-India/Systems-Software-engineer-III_1205476",
+      "status": "rejected_filter",
+      "reason": "Mandatory qualifications, role focus, or evidence fit is below the hard-gate standard for an early-career application."
+    },
+    {
+      "id": 143,
+      "company": "hpe",
+      "title": "System/software engineer II",
+      "location": "Bengaluru, Karnātaka, India",
+      "url": "https://hpe.wd5.myworkdayjobs.com/wfmathpe/job/Bengaluru-Karntaka-India/System-software-engineer-II_1208030-1",
+      "status": "rejected_filter",
+      "reason": "Mandatory qualifications, role focus, or evidence fit is below the hard-gate standard for an early-career application."
+    },
+    {
+      "id": 144,
+      "company": "hpe",
+      "title": "System/Software Engineer - Solution and System Testing for L2, L3 Protocols",
+      "location": "Bengaluru, Karnātaka, India",
+      "url": "https://hpe.wd5.myworkdayjobs.com/wfmathpe/job/Bengaluru-Karntaka-India/Systems-Software-engineer-III_1205476-1",
+      "status": "rejected_filter",
+      "reason": "Mandatory qualifications, role focus, or evidence fit is below the hard-gate standard for an early-career application."
+    },
+    {
+      "id": 145,
+      "company": "hpe",
+      "title": "System/software engineer II",
+      "location": "Bengaluru, Karnātaka, India",
+      "url": "https://hpe.wd5.myworkdayjobs.com/jobsathpe/job/Bengaluru-Karntaka-India/System-software-engineer-II_1208030-2",
+      "status": "rejected_filter",
+      "reason": "Mandatory qualifications, role focus, or evidence fit is below the hard-gate standard for an early-career application."
+    },
+    {
+      "id": 146,
+      "company": "harman",
+      "title": "Software Engineer - MIL, SIL & HIL",
+      "location": "Bangalore - Karnataka, India - Kalyani Platina",
+      "url": "https://harman.wd3.myworkdayjobs.com/harman/job/Bangalore---Karnataka-India---Kalyani-Platina/Software-Engineer---MIL--SIL---HIL_R-54188-2026",
+      "status": "rejected_filter",
+      "reason": "Mandatory specialization is not supported strongly enough by approved candidate evidence."
+    },
+    {
+      "id": 147,
+      "company": "harman",
+      "title": "Software Engineer - MIL, SIL & HIL",
+      "location": "Bangalore - Karnataka, India - Kalyani Platina",
+      "url": "https://harman.wd3.myworkdayjobs.com/harman/job/Bangalore---Karnataka-India---Kalyani-Platina/Software-Engineer---MIL--SIL---HIL_R-54189-2026",
+      "status": "rejected_filter",
+      "reason": "Mandatory specialization is not supported strongly enough by approved candidate evidence."
+    },
+    {
+      "id": 148,
+      "company": "harman",
+      "title": "Software Engineer - Power Platform & Automation Engineer",
+      "location": "Bangalore - Karnataka, India - Kalyani Platina",
+      "url": "https://harman.wd3.myworkdayjobs.com/harman/job/Bangalore---Karnataka-India---Kalyani-Platina/Software-Engineer---Power-Platform---Automation-Engineer_R-54084-2026",
+      "status": "rejected_filter",
+      "reason": "Mandatory specialization is not supported strongly enough by approved candidate evidence."
+    },
+    {
+      "id": 149,
+      "company": "harman",
+      "title": "Software Engineer - C++ QT QML",
+      "location": "Bangalore - Karnataka, India - Kalyani Platina",
+      "url": "https://harman.wd3.myworkdayjobs.com/harman/job/Bangalore---Karnataka-India---Kalyani-Platina/Software-Engineer---C---QT-QML_R-54247-2026",
+      "status": "rejected_filter",
+      "reason": "Mandatory experience floor is 4+ years."
+    },
+    {
+      "id": 150,
+      "company": "harman",
+      "title": "Software Engineer - C++ QT QML",
+      "location": "Bangalore - Karnataka, India - Kalyani Platina",
+      "url": "https://harman.wd3.myworkdayjobs.com/harman/job/Bangalore---Karnataka-India---Kalyani-Platina/Software-Engineer---C---QT-QML_R-54241-2026",
+      "status": "rejected_filter",
+      "reason": "Mandatory experience floor is 4+ years."
+    },
+    {
+      "id": 151,
+      "company": "factset",
+      "title": "Software Engineer III (Python) - FY26",
+      "location": "India, Hyderabad, DVS, SEZ-1 – Orion B4; FL 7,8,9,11 (Hyderabad - Divyasree 3)",
+      "url": "https://factset.wd108.myworkdayjobs.com/factsetcareers/job/India-Hyderabad-DVS-SEZ-1--Orion-B4-FL-78911-Hyderabad---Divyasree-3/Software-Engineer-III--Python-_R31323",
+      "status": "rejected_filter",
+      "reason": "Role level/title is outside the new-grad, entry, junior, or associate target."
+    },
+    {
+      "id": 152,
+      "company": "ecolab",
+      "title": "Associate Software Engineer",
+      "location": "IND - Karnataka - Bangalore - EDC",
+      "url": "https://ecolab.wd1.myworkdayjobs.com/ecolab_external/job/IND---Karnataka---Bangalore---EDC/Associate-Software-Engineer_R00298527",
+      "status": "rejected_filter",
+      "reason": "Mandatory specialization is not supported strongly enough by approved candidate evidence."
+    },
+    {
+      "id": 153,
+      "company": "boeing",
+      "title": "Associate ATE Software Engineer",
+      "location": "IND - Bangalore, India",
+      "url": "https://boeing.wd1.myworkdayjobs.com/external_careers/job/IND---Bangalore-India/Associate-ATE-Software-Engineer_JR2026516826-1",
+      "status": "rejected_filter",
+      "reason": "Mandatory specialization is not supported strongly enough by approved candidate evidence."
+    },
+    {
+      "id": 154,
+      "company": "boeing",
+      "title": "Associate ATE Software Engineer",
+      "location": "IND - Bangalore, India",
+      "url": "https://boeing.wd1.myworkdayjobs.com/external_careers/job/IND---Bangalore-India/Associate-ATE-Software-Engineer_JR2026516823-1",
+      "status": "rejected_filter",
+      "reason": "Mandatory specialization is not supported strongly enough by approved candidate evidence."
+    },
+    {
+      "id": 155,
+      "company": "boeing",
+      "title": "Associate ATE Software Engineer",
+      "location": "IND - Bangalore, India",
+      "url": "https://boeing.wd1.myworkdayjobs.com/external_careers/job/IND---Bangalore-India/Associate-ATE-Software-Engineer_JR2026516304",
+      "status": "rejected_filter",
+      "reason": "Mandatory specialization is not supported strongly enough by approved candidate evidence."
+    },
+    {
+      "id": 156,
+      "company": "boeing",
+      "title": "Associate ATE Software Engineer",
+      "location": "IND - Bangalore, India",
+      "url": "https://boeing.wd1.myworkdayjobs.com/external_subsidiary/job/IND---Bangalore-India/Associate-ATE-Software-Engineer_JR2026516826",
+      "status": "rejected_filter",
+      "reason": "Mandatory specialization is not supported strongly enough by approved candidate evidence."
+    },
+    {
+      "id": 157,
+      "company": "boeing",
+      "title": "Associate ATE Software Engineer",
+      "location": "IND - Bangalore, India",
+      "url": "https://boeing.wd1.myworkdayjobs.com/external_subsidiary/job/IND---Bangalore-India/Associate-ATE-Software-Engineer_JR2026516823",
+      "status": "rejected_filter",
+      "reason": "Mandatory specialization is not supported strongly enough by approved candidate evidence."
+    },
+    {
+      "id": 158,
+      "company": "boeing",
+      "title": "Associate ATE Software Engineer",
+      "location": "IND - Bangalore, India",
+      "url": "https://boeing.wd1.myworkdayjobs.com/external_subsidiary/job/IND---Bangalore-India/Associate-ATE-Software-Engineer_JR2026516304-2",
+      "status": "rejected_filter",
+      "reason": "Mandatory specialization is not supported strongly enough by approved candidate evidence."
+    },
+    {
+      "id": 159,
+      "company": "coinmarketcap",
+      "title": "Java Engineer - Contractor",
+      "location": "Global",
+      "url": "https://jobs.lever.co/coinmarketcap/a1a88e5b-0eaa-4827-ab91-fabf6b2f1331",
+      "status": "rejected_filter",
+      "reason": "Location does not establish that the role can hire or contract the candidate in India."
+    },
+    {
+      "id": 160,
+      "company": "stripe",
+      "title": "Software Engineer, Intern",
+      "location": "Bengaluru",
+      "url": "https://stripe.com/jobs/search?gh_jid=8031833",
+      "status": "rejected_filter",
+      "reason": "Current-student eligibility is not supported after the recorded June 2026 degree end date."
+    },
+    {
+      "id": 161,
+      "company": "jumio",
+      "title": "SDE IV - (Biometrics)",
+      "location": "India (remote)",
+      "url": "https://job-boards.greenhouse.io/jumio/jobs/4708286005",
+      "status": "rejected_filter",
+      "reason": "Role level/title is outside the new-grad, entry, junior, or associate target."
+    },
+    {
+      "id": 162,
+      "company": "netskope",
+      "title": "Solutions Engineer",
+      "location": "Indiana, United States",
+      "url": "https://www.netskope.com/company/careers/open-positions/?gh_jid=8053973",
+      "status": "rejected_filter",
+      "reason": "Location does not establish that the role can hire or contract the candidate in India."
+    },
+    {
+      "id": 163,
+      "company": "bjakcareer",
+      "title": "Applied AI Engineer (Austria)",
+      "location": "Global",
+      "url": "https://jobs.ashbyhq.com/bjakcareer/fc5bea15-6583-4424-b24c-bc58de778bc5",
+      "status": "rejected_filter",
+      "reason": "Location does not establish that the role can hire or contract the candidate in India."
+    },
+    {
+      "id": 164,
+      "company": "nice",
+      "title": "Software Engineer, CX",
+      "location": "India - Pune",
+      "url": "https://boards.eu.greenhouse.io/nice/jobs/4920031101?gh_jid=4920031101",
+      "status": "rejected_filter",
+      "reason": "Mandatory qualifications, role focus, or evidence fit is below the hard-gate standard for an early-career application."
+    },
+    {
+      "id": 165,
+      "company": "phonepe",
+      "title": "Software Engineer, Android",
+      "location": "Bangalore",
+      "url": "https://job-boards.greenhouse.io/phonepe/jobs/7799494003",
+      "status": "rejected_filter",
+      "reason": "Mandatory specialization is not supported strongly enough by approved candidate evidence."
+    },
+    {
+      "id": 166,
+      "company": "zeissgroup",
+      "title": "Java Developer",
+      "location": "Bangalore",
+      "url": "https://zeissgroup.wd3.myworkdayjobs.com/external/job/Bangalore/Java-Developer_JR_1046566",
+      "status": "rejected_filter",
+      "reason": "Mandatory experience floor is 4+ years."
+    },
+    {
+      "id": 167,
+      "company": "trendmicro",
+      "title": "Solutions Engineer, West",
+      "location": "Mumbai",
+      "url": "https://trendmicro.wd3.myworkdayjobs.com/external/job/Mumbai/Solutions-Engineer--West_R0009933",
+      "status": "rejected_filter",
+      "reason": "Role is support-, presales-, or account-outcome-heavy rather than a qualifying coding role."
+    },
+    {
+      "id": 168,
+      "company": "synechron",
+      "title": "GenAI Engineer / LLMs, NLP & AWS",
+      "location": "Bengaluru - Bellandur (GTP)",
+      "url": "https://synechron.wd1.myworkdayjobs.com/synechroncareers/job/Bengaluru---Bellandur-GTP/GenAI-Engineer---LLMs--NLP---AWS_JR1041204",
+      "status": "rejected_filter",
+      "reason": "Mandatory experience floor is 4+ years."
+    },
+    {
+      "id": 169,
+      "company": "synechron",
+      "title": "GenAI Engineer / LLMs & AWS",
+      "location": "Pune - Hinjewadi (Ascendas)",
+      "url": "https://synechron.wd1.myworkdayjobs.com/synechroncareers/job/Pune---Hinjewadi-Ascendas/AI-Engineer_JR1041344-1",
+      "status": "rejected_filter",
+      "reason": "Mandatory qualifications, role focus, or evidence fit is below the hard-gate standard for an early-career application."
+    },
+    {
+      "id": 170,
+      "company": "regalrexnord",
+      "title": "Full Stack Cloud Engineer",
+      "location": "Hyderabad, Telangana, India",
+      "url": "https://regalrexnord.wd1.myworkdayjobs.com/careers/job/Hyderabad-Telangana-India/Data-Engineer---BI_R26_02189",
+      "status": "rejected_filter",
+      "reason": "Mandatory experience floor is 4+ years."
+    },
+    {
+      "id": 171,
+      "company": "qualys",
+      "title": "Front End Software Engineer",
+      "location": "Pune",
+      "url": "https://qualys.wd5.myworkdayjobs.com/careers/job/Pune/Front-End-Software-Engineer_R0004839",
+      "status": "rejected_filter",
+      "reason": "Mandatory qualifications, role focus, or evidence fit is below the hard-gate standard for an early-career application."
+    },
+    {
+      "id": 172,
+      "company": "mastercard",
+      "title": "Software Engineer II (C, C++ on Unix, Experience with socket programming, IPC)",
+      "location": "Pune, India",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/corporatecareers/job/Pune-India/Senior-Software-Engineer--C---Developer---Unix-Linux---ISO-8583---Payment-Domain-_R-280086-1",
+      "status": "rejected_filter",
+      "reason": "Mandatory qualifications, role focus, or evidence fit is below the hard-gate standard for an early-career application."
+    },
+    {
+      "id": 173,
+      "company": "kyndryl",
+      "title": "Software Engineer - Development",
+      "location": "Gurgaon, Haryana, India",
+      "url": "https://kyndryl.wd5.myworkdayjobs.com/kyndrylprofessionalcareers/job/Gurgaon-Haryana-India/Software-Engineer---Development_R-64339-1",
+      "status": "rejected_filter",
+      "reason": "Mandatory experience floor is 4+ years."
+    },
+    {
+      "id": 174,
+      "company": "harman",
+      "title": "Software Engineer, Software Engineering - Applications",
+      "location": "IN_Bangalore_Sattva Knowledge Court Bdg_HII",
+      "url": "https://harman.wd3.myworkdayjobs.com/harman/job/IN_Bangalore_Sattva-Knowledge-Court-Bdg_HII/Software-Engineer---Android-Application-Development_R-53197-2026",
+      "status": "rejected_filter",
+      "reason": "Mandatory qualifications, role focus, or evidence fit is below the hard-gate standard for an early-career application."
+    },
+    {
+      "id": 175,
+      "company": "harman",
+      "title": "Software Engineer - Scrum Master",
+      "location": "Bangalore - Karnataka, India - Kalyani Platina",
+      "url": "https://harman.wd3.myworkdayjobs.com/harman/job/Bangalore---Karnataka-India---Kalyani-Platina/Software-Engineer---Scrum-Master_R-54453-2026",
+      "status": "rejected_filter",
+      "reason": "Mandatory experience floor is 4+ years."
+    },
+    {
+      "id": 176,
+      "company": "harman",
+      "title": "Software Engineer - Android Framework Developer",
+      "location": "Bangalore - Karnataka, India - EOIZ Industrial Area",
+      "url": "https://harman.wd3.myworkdayjobs.com/harman/job/Bangalore---Karnataka-India---EOIZ-Industrial-Area/Software-Engineer---Android-Framework-Developer_R-54089-2026",
+      "status": "rejected_filter",
+      "reason": "Mandatory experience floor is 4+ years."
+    },
+    {
+      "id": 177,
+      "company": "ghr",
+      "title": "Software Engineer II A - GBS IND",
+      "location": "Mumbai",
+      "url": "https://ghr.wd1.myworkdayjobs.com/lateral-ba_continuum/job/Mumbai/Software-Engineer-II-A---GBS-IND_26017372",
+      "status": "rejected_filter",
+      "reason": "Mandatory experience floor is 4+ years."
+    },
+    {
+      "id": 178,
+      "company": "finastra",
+      "title": "Associate Software Engineer",
+      "location": "Pune",
+      "url": "https://finastra.wd3.myworkdayjobs.com/finc/job/Pune/Associate-Software-Engineer_REQ0626_0037652",
+      "status": "qualifies_for_evaluation",
+      "reason": "Explicit Associate role requiring 1–2 years; C++ is supported, though project evidence is limited."
+    },
+    {
+      "id": 179,
+      "company": "candescent",
+      "title": "Software Engineer IV - (C/C++)",
+      "location": "IN - Hyderabad - Office",
+      "url": "https://candescent.wd501.myworkdayjobs.com/hiring/job/IN---Hyderabad---Office/Sowtware-Engineer-IV---NET_R0001864",
+      "status": "rejected_filter",
+      "reason": "Role level/title is outside the new-grad, entry, junior, or associate target."
+    },
+    {
+      "id": 180,
+      "company": "barclays",
+      "title": "Software Development Engineer in Test",
+      "location": "Pune, Gera Commerzone SEZ",
+      "url": "https://barclays.wd3.myworkdayjobs.com/external_career_site_barclays/job/Pune-Gera-Commerzone-SEZ/Data-Engineer_JR-0000070530",
+      "status": "rejected_filter",
+      "reason": "Mandatory qualifications, role focus, or evidence fit is below the hard-gate standard for an early-career application."
+    },
+    {
+      "id": 181,
+      "company": "assurant",
+      "title": "Software Engineer (5+ Years in DotNet+C#+React+Typescript+Azure+SQL Server)",
+      "location": "Hyderabad",
+      "url": "https://assurant.wd1.myworkdayjobs.com/assurant_careers/job/Hyderabad/Software-Engineer--Net-C--React-Typescript-Azure-SQL-Server-_R-114005-1",
+      "status": "rejected_filter",
+      "reason": "Mandatory qualifications, role focus, or evidence fit is below the hard-gate standard for an early-career application."
+    }
+  ]
+}
