@@ -6,6 +6,7 @@
  */
 
 import { copyFileSync, existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 'fs';
+import { spawnSync } from 'child_process';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 import yaml from 'js-yaml';
@@ -107,6 +108,20 @@ function playwrightMcpConfigured(root) {
       // Malformed config — keep scanning the other locations; never crash doctor on it.
     }
   }
+
+  // Codex CLI stores MCP registrations in its global config rather than in a
+  // Claude-style project JSON file. Query it when available so doctor does not
+  // report a false warning after `codex mcp add playwright ...`.
+  try {
+    const result = spawnSync('codex', ['mcp', 'get', 'playwright'], {
+      encoding: 'utf8',
+      timeout: 5000,
+    });
+    if (result.status === 0 && /enabled:\s*true/i.test(result.stdout || '')) return true;
+  } catch {
+    // Codex is optional; fall through to the normal non-fatal warning.
+  }
+
   return false;
 }
 
