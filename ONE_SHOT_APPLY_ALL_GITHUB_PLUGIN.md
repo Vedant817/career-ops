@@ -4,7 +4,7 @@ Operate Career-Ops for Vedant Mahajan as one continuous, sequential workflow.
 
 ## Mandatory browser preflight
 
-This prompt runs in Codex CLI. Use the configured `playwright` MCP browser tools
+This prompt runs in your coding CLI's agent session. Use the configured `playwright` MCP browser tools
 for job-posting verification, application navigation, field entry, and uploads.
 Do not treat web search, WebFetch, shell HTTP clients, or the presence of a local
 Playwright package as interactive browser control.
@@ -23,7 +23,7 @@ generation. Regenerate an artifact only when it is missing, invalid, or stale.
 
 ## Mandatory integration rule
 
-Use the **installed GitHub plugin/app/MCP tools available inside Codex** for every GitHub operation.
+Use the **installed GitHub plugin/app/MCP tools available inside this CLI** for every GitHub operation.
 
 Do NOT use:
 
@@ -48,7 +48,7 @@ If the GitHub plugin is not installed, disabled, unauthenticated, unavailable, o
 - do not fall back to `gh` or public scraping;
 - stop before scanning jobs;
 - report the exact missing setup;
-- instruct Vedant to open `/plugins`, install/enable GitHub, connect `Vedant817`, start a new Codex session, and rerun this prompt.
+- instruct Vedant to install/connect this CLI's GitHub integration (plugin, connected app, or MCP server), confirm the connected account is `Vedant817`, start a new session, and rerun this prompt.
 
 ## Objective
 
@@ -72,7 +72,7 @@ Do not ask Vedant to choose among qualifying roles or projects.
 Read completely:
 
 - `AGENTS.md`
-- `CODEX.md`
+- this CLI's own entry file (`CODEX.md`, `CLAUDE.md`, `OPENCODE.md`, or the equivalent for whichever CLI is running this session)
 - `cv.md`
 - `config/profile.yml`
 - `modes/_profile.md`
@@ -479,7 +479,7 @@ For a live Workday application that requires an account:
 When an application or account flow requests an OTP, email code, or SMS code:
 
 1. keep the current Playwright page and browser context open;
-2. immediately ask Vedant for the current code in the interactive Codex session;
+2. immediately ask Vedant for the current code in the interactive session;
 3. wait for his reply instead of marking the application blocked or moving on;
 4. enter the supplied code only into the visible verification-code field;
 5. trigger the non-final Verify/Continue action when it only verifies the code;
