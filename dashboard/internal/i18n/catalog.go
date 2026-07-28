@@ -21,6 +21,7 @@ type Catalog struct {
 	TabEvaluated string
 	TabApplied   string
 	TabInterview string
+	TabResponded string
 	TabTop       string
 	TabSkip      string
 	TabRejected  string
@@ -100,6 +101,7 @@ type Catalog struct {
 	HelpPage       string
 	HelpTopEnd     string
 	HelpLanguage   string
+	HelpManifesto  string
 	HelpBack       string
 	HelpNavigate   string
 	HelpToggle     string
@@ -230,6 +232,7 @@ var En = Catalog{
 	TabEvaluated: "EVALUATED",
 	TabApplied:   "APPLIED",
 	TabInterview: "INTERVIEW",
+	TabResponded: "RESPONDED",
 	TabTop:       "TOP ≥4",
 	TabSkip:      "SKIP",
 	TabRejected:  "REJECTED",
@@ -309,6 +312,7 @@ var En = Catalog{
 	HelpPage:       " page  ",
 	HelpTopEnd:     " top/end  ",
 	HelpLanguage:   " lang  ",
+	HelpManifesto:  " manifesto  ",
 	HelpBack:       " back",
 	HelpNavigate:   " navigate  ",
 	HelpToggle:     " toggle  ",
@@ -356,6 +360,7 @@ var Tr = Catalog{
 	TabEvaluated: "DEĞERLENDİRİLDİ",
 	TabApplied:   "BAŞVURULDU",
 	TabInterview: "MÜLAKAT",
+	TabResponded: "YANIT VERİLDİ",
 	TabTop:       "EN İYİ ≥4",
 	TabSkip:      "UYGUN DEĞİL",
 	TabRejected:  "REDDEDİLDİ",
@@ -435,6 +440,7 @@ var Tr = Catalog{
 	HelpPage:       " sayfa  ",
 	HelpTopEnd:     " baş/son  ",
 	HelpLanguage:   " dil  ",
+	HelpManifesto:  " manifesto  ",
 	HelpBack:       " geri",
 	HelpNavigate:   " gezin  ",
 	HelpToggle:     " değiştir  ",
@@ -482,6 +488,7 @@ var Es = Catalog{
 	TabEvaluated: "EVALUADAS",
 	TabApplied:   "APLICADAS",
 	TabInterview: "ENTREVISTA",
+	TabResponded: "RESPONDIDAS",
 	TabTop:       "TOP ≥4",
 	TabSkip:      "OMITIR",
 	TabRejected:  "RECHAZADAS",
@@ -561,6 +568,7 @@ var Es = Catalog{
 	HelpPage:       " página  ",
 	HelpTopEnd:     " inicio/fin  ",
 	HelpLanguage:   " idioma  ",
+	HelpManifesto:  " manifiesto  ",
 	HelpBack:       " atrás",
 	HelpNavigate:   " navegar  ",
 	HelpToggle:     " alternar  ",

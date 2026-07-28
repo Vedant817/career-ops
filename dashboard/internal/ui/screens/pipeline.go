@@ -102,7 +102,6 @@ var canonicalDiscardReasons = []string{
 	"company_culture",
 }
 
-
 type reportSummary struct {
 	archetype string
 	tldr      string
@@ -129,6 +128,7 @@ const (
 	filterEvaluated = "evaluated"
 	filterApplied   = "applied"
 	filterInterview = "interview"
+	filterResponded = "responded"
 	filterSkip      = "skip"
 	filterRejected  = "rejected"
 	filterDiscarded = "discarded"
@@ -144,8 +144,9 @@ func getPipelineTabs() []pipelineTab {
 	return []pipelineTab{
 		{filterAll, i18n.Current.TabAll},
 		{filterEvaluated, i18n.Current.TabEvaluated},
-		{filterApplied, i18n.Current.TabApplied},
 		{filterInterview, i18n.Current.TabInterview},
+		{filterResponded, i18n.Current.TabResponded},
+		{filterApplied, i18n.Current.TabApplied},
 		{filterTop, i18n.Current.TabTop},
 		{filterSkip, i18n.Current.TabSkip},
 		{filterRejected, i18n.Current.TabRejected},
@@ -230,14 +231,14 @@ type PipelineModel struct {
 	// Discard reason picker sub-state (Issue 1380) — opens when status
 	// transitions to Discarded or SKIP, pre-populated from the report's
 	// predicted discard_reasons, plus canonical fallback options.
-	discardPicker       bool
-	discardCursor       int
-	discardOptions      []string // predicted + canonical options shown to user
-	discardCustomInput  bool     // true when "Other…" is selected and user is typing
-	discardCustomText   string   // free-text typed for "Other…" reason
-	discardPendingApp    model.CareerApplication // app awaiting the reason pick
-	discardPendingStatus string                  // new status to commit with the reason
-	discardPredictedCount int                    // count of predicted reasons (from report)
+	discardPicker         bool
+	discardCursor         int
+	discardOptions        []string                // predicted + canonical options shown to user
+	discardCustomInput    bool                    // true when "Other…" is selected and user is typing
+	discardCustomText     string                  // free-text typed for "Other…" reason
+	discardPendingApp     model.CareerApplication // app awaiting the reason pick
+	discardPendingStatus  string                  // new status to commit with the reason
+	discardPredictedCount int                     // count of predicted reasons (from report)
 
 	// PDF picker sub-state — shown when one application matches several
 	// generated CVs (role variants from the same company).
@@ -344,6 +345,21 @@ func (m PipelineModel) WithReloadedData(apps []model.CareerApplication, metrics 
 	reloaded.searchInput = m.searchInput
 	// Preserve user's column visibility choices across refresh.
 	reloaded.visibleCols = m.visibleCols
+	// Preserve in-progress interactive flows. The viewer status path starts
+	// the hired celebration / discard reason picker on the pipeline model and
+	// then immediately triggers a data reload; rebuilding the model here used
+	// to wipe that state, so picking Discarded/SKIP from the report viewer
+	// silently never asked for a reason and never wrote the status.
+	reloaded.hiredApp = m.hiredApp
+	reloaded.hiredStep = m.hiredStep
+	reloaded.discardPicker = m.discardPicker
+	reloaded.discardCursor = m.discardCursor
+	reloaded.discardOptions = m.discardOptions
+	reloaded.discardCustomInput = m.discardCustomInput
+	reloaded.discardCustomText = m.discardCustomText
+	reloaded.discardPendingApp = m.discardPendingApp
+	reloaded.discardPendingStatus = m.discardPendingStatus
+	reloaded.discardPredictedCount = m.discardPredictedCount
 	reloaded.applyFilterAndSort()
 	reloaded.CopyReportCache(&m)
 
@@ -546,6 +562,11 @@ func (m PipelineModel) handleKey(msg tea.KeyMsg) (PipelineModel, tea.Cmd) {
 			return m, func() tea.Msg {
 				return PipelineOpenURLMsg{URL: app.JobURL}
 			}
+		}
+
+	case "m":
+		return m, func() tea.Msg {
+			return PipelineOpenURLMsg{URL: "https://career-ops.org/manifesto?utm_source=dashboard-shortcut"}
 		}
 
 	case "d":
@@ -775,8 +796,8 @@ func (m PipelineModel) handleStatusPicker(msg tea.KeyMsg) (PipelineModel, tea.Cm
 func (m PipelineModel) startDiscardFlow(app model.CareerApplication, newStatus string) tea.Msg {
 	predicted := data.LoadReportDiscardReasons(m.careerOpsPath, app.ReportPath)
 	return pipelineStartDiscardPickerMsg{
-		app:           app,
-		newStatus:     newStatus,
+		app:              app,
+		newStatus:        newStatus,
 		predictedReasons: predicted,
 	}
 }
@@ -1833,7 +1854,12 @@ func (m PipelineModel) renderHelp() string {
 				keyStyle.Render("Esc") + descStyle.Render(i18n.Current.HelpCancel))
 	}
 
-	brand := lipgloss.NewStyle().Foreground(m.theme.Overlay).Render("career-ops by santifer.io")
+	// The manifesto segment is an OSC 8 hyperlink (utm_source=dashboard);
+	// terminals without support show the same text, just not clickable. The
+	// gap math uses the plain text so the escapes never skew the layout.
+	const brandPlain = "built on the CareerOps Manifesto · career-ops by santifer.io"
+	manifestoLink := "\x1b]8;;https://career-ops.org/manifesto?utm_source=dashboard\x1b\\built on the CareerOps Manifesto\x1b]8;;\x1b\\"
+	brand := lipgloss.NewStyle().Foreground(m.theme.Overlay).Render(manifestoLink + " · career-ops by santifer.io")
 
 	keys := keyStyle.Render("↑↓/jk") + descStyle.Render(i18n.Current.HelpNav) +
 		keyStyle.Render("←→/hl") + descStyle.Render(i18n.Current.HelpTabs) +
@@ -1849,9 +1875,10 @@ func (m PipelineModel) renderHelp() string {
 		keyStyle.Render("v") + descStyle.Render(i18n.Current.HelpView) +
 		keyStyle.Render("p") + descStyle.Render(i18n.Current.HelpProgress) +
 		keyStyle.Render("t") + descStyle.Render(i18n.Current.HelpLanguage) +
+		keyStyle.Render("m") + descStyle.Render(i18n.Current.HelpManifesto) +
 		keyStyle.Render("q") + descStyle.Render(i18n.Current.HelpQuit)
 
-	gap := m.width - lipgloss.Width(keys) - lipgloss.Width(brand) - 2
+	gap := m.width - lipgloss.Width(keys) - lipgloss.Width(brandPlain) - 2
 	if gap < 1 {
 		gap = 1
 	}
@@ -1888,7 +1915,6 @@ func (m PipelineModel) overlayStatusPicker(body string) string {
 	bodyLines = append(bodyLines, picker...)
 	return strings.Join(bodyLines, "\n")
 }
-
 
 func (m PipelineModel) overlayHiredFlow() string {
 	borderStyle := lipgloss.NewStyle().
@@ -2098,7 +2124,6 @@ func (m PipelineModel) overlayDiscardPicker(body string) string {
 		picker = append(picker, padStyle.Render(hintStyle.Render("Enter: confirm   Esc: back")))
 	} else {
 		numPredicted := m.discardPredictedCount
-
 
 		heading := "─── Discard reason (↑↓ navigate · Enter confirm · Esc skip) ─"
 		picker = append(picker, padStyle.Render(titleStyle.Render(heading)))
